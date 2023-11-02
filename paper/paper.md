@@ -76,8 +76,14 @@ like as shown in Figure 1.
 
 If you click on your name you will be taken to your profile page on Scholia. On this page you will see a list of your publications and co-authors.
 
+You can also explore previous *BioHackathon Europe* events, including reports written at those events
+at [this Scholia page](https://scholia.toolforge.org/event-series/Q109379759) (see Figure 2).
+
+![Screenshot of the Scholia page for the BioHackathon Europe event series.](./BioHackEU-Series.png)
+
 ## Acknowledgements
 
-...
+We like to thank everyone who responsed on Slack and provided their ORCID identifiers to create this co-author network.
+This effort resulted from the BioHackathon Europe 2023 which was funded by ELIXIR, the research infrastructure for life-science data.
 
 ## References
