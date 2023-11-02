@@ -5,10 +5,7 @@ Minimal example of a [BioHackrXiv](https://biohackrxiv.org/) publication that ca
 
 ## Step 1: Clone this Template Repository
 
-This repository is a template repository. This means that you can hit the green "Use this template"
-button (after logging in) to use it as a template to start a new BioHackrXiv Publication:
-
-![Screenshot of the green "Use this template" button.](paper/use-this-template.png)
+Already done by Egon.
 
 ## Step 2: Configuring the Markdown
 
