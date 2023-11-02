@@ -33,16 +33,18 @@ authors_short: Egon Willighagen \emph{et al.}
 
 
 # Introduction
-Wikidata is the linked-open-data graph of the Wikimedia foundation with its most known sibling Wikipedia. What Wikipedia
+Wikidata is the linked-open-data graph of the Wikimedia foundation with its most known sibling Wikipedia
+[@usesDataFrom,usesMethodIn:Vrandecic2012Wikidata]. What Wikipedia
 is to text, Wikidata is to data. Like in Wikipedia linked-data can be added for everyone, by everyone. This makes Wikidata
 a very rich source of data.
 
 A substantial part of the data on Wikidata is about scientific publications and the authors of these publications. Scholia
-is a tool that uses this data to create a profile page for authors and publications. 
+is a tool that uses this data to create a profile page for authors and publications [@usesMethodIn:Nielsen2017Scholia]. 
 This report describes a workflow to create co-author graphs using the data from Scholia. 
 
 # Workflow
-Figure 1 shows an example of a co-participation graph of this edition of the BioHackathon Europe 2023 at the time of writing 
+Figure 1 shows an example of a co-participation graph of this edition of the
+[BioHackathon Europe 2023](https://github.com/elixir-europe/biohackathon-projects-2023) at the time of writing 
 of this report. The graph is created using data from Wikidata, which is used by Scholia to create the profile pages of the individual
 participants and the overall event page. 
 
