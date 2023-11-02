@@ -42,6 +42,8 @@ A substantial part of the data on Wikidata is about scientific publications and 
 is a tool that uses this data to create a profile page for authors and publications [@usesMethodIn:Nielsen2017Scholia]. 
 This report describes a workflow to create co-author graphs using the data from Scholia. 
 
+![Co-author network of participants of BioHackathon Europe 2023, as defined by data in Wikidata on 2023-11-02 at 15:00 CET.](./coauthor-network-20231102-1500.png)
+
 # Workflow
 Figure 1 shows an example of a co-participation graph of this edition of the
 [BioHackathon Europe 2023](https://github.com/elixir-europe/biohackathon-projects-2023) at the time of writing 
@@ -66,8 +68,6 @@ The following steps can be taken to add a participant to this graph:
 Navigate to the [BioHackathon Europe 2023](https://scholia.toolforge.org/event/Q118733318) page on Scholia.
 You should now see your name and photo appear on the page. A the time of writing, the co-author network looked
 like as shown in Figure 1.
-
-![Co-author network of participants of BioHackathon Europe 2023, as defined by data in Wikidata on 2023-11-02 at 15:00 CET.](./coauthor-network-20231102-1500.png)
 
 If you click on your name you will be taken to your profile page on Scholia. On this page you will see a list of your publications and co-authors.
 
