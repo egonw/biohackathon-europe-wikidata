@@ -51,15 +51,15 @@ Figure 1 shows an example of a co-participation graph of this edition of the
 of this report. The graph is created using data from Wikidata, which is used by Scholia to create the profile pages of the individual
 participants and the overall event page. 
 
-This graph currently lists only the participants that have a Wikidata item, that also lists their participationt to the
-BioHackathon.
+This graph currently lists only the participants that have a Wikidata item, list their participation in this
+BioHackathon, and have co-authors are least one article with another participant.
 
 The following steps can be taken to add a participant to this graph:
 
 1. First, check if the author is already known to Wikidata. Use one of the following patterns:
    * [https://scholar.toolforge.org/orcid/0000-0001-9773-4008](https://scholar.toolforge.org/orcid/0000-0001-9773-4008)
    * [https://scholar.toolforge.org/github/egonw](https://scholar.toolforge.org/github/egonw)
-   * Or just search by name and check the details for the person
+   * Or just search by name and check the details for the person (see also the *Author Disambiguator* below). You can use the ORCID profile as method to triage if you have the right person.
 2. If missing, create a Wikidata item for the participant. This requires an ORCID. If not, [create a new Wikidata item](https://www.wikidata.org/wiki/Special:NewItem). Add as much information as you can, but at least the following statements:add your ORCID and name.
    1. Add a statement that you are a person. This can be done by adding the following statement: instance of (`P31`) human (`Q5`).
    2. Add a statement that you have an ORCID. This can be done by adding the following statement: ORCID iD (`P496`) and your ORCID.
@@ -76,12 +76,13 @@ The following steps can be taken to add a participant to this graph:
 
 Navigate to the [BioHackathon Europe 2023](https://scholia.toolforge.org/event/Q118733318) page on Scholia.
 You should now see your name and photo appear on the page. A the time of writing, the co-author network looked
-like as shown in Figure 1.
-
-If you click on your name you will be taken to your profile page on Scholia. On this page you will see a list of your publications and co-authors.
+like as shown in Figure 1. If you click on your name you will be taken to your profile page on Scholia. On this page you will see a list of your publications and co-authors.
 
 You can also explore previous *BioHackathon Europe* events, including reports written at those events
-at [this Scholia page](https://scholia.toolforge.org/event-series/Q109379759) (see Figure 2).
+at [this Scholia page](https://scholia.toolforge.org/event-series/Q109379759) (see Figure 2). For each event
+and each proceedings a similar co-author network is available.
+Finally, if you like what you are seeing, consider reading how scholars are using Wikidata in their research
+with the "Recent published works" on the [Scholia topic page for Wikidata](https://scholia.toolforge.org/topic/Q2013).
 
 ![Screenshot of the Scholia page for the BioHackathon Europe event series.](./BioHackEU-Series.png)
 
