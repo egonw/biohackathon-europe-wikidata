@@ -34,7 +34,7 @@ authors_short: Egon Willighagen \emph{et al.}
 
 # Introduction
 Wikidata is the linked-open-data graph of the Wikimedia foundation with its most known sibling Wikipedia
-[@usesDataFrom,usesMethodIn:Vrandecic2012Wikidata]. What Wikipedia
+[@usesDataFrom:usesMethodIn:Vrandecic2012Wikidata]. What Wikipedia
 is to text, Wikidata is to data. Like in Wikipedia linked-data can be added for everyone, by everyone. This makes Wikidata
 a very rich source of data.
 
