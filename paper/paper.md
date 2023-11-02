@@ -1,6 +1,6 @@
 ---
 title: 'Rendering co-author graphs using linked-open-data from Wikidata'
-title_short: 'BioHackEU23 #26: Wikidata driven co-author graphs'
+title_short: 'BioHackEU23: Wikidata driven co-author graphs'
 tags:
   - wikidata
   - co-citation graphs
