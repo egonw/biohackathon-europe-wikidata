@@ -52,21 +52,22 @@ This graph currently lists only the participants that have a Wikidata item, that
 Biohackathon.
 
 The following steps can be taken to add a participant to this graph:
-1. Create a Wikidata item for the participant. This requires an ORCID. First search Wikidata to see if you are not already added to Wikidata. If not, [create a new Wikidata item](https://www.wikidata.org/wiki/Special:NewItem).
-    add as much information as you can, but at least the following statements:add your ORCID and name.
+
+1. Create a Wikidata item for the participant. This requires an ORCID. First search Wikidata to see if you are not already added to Wikidata. If not, [create a new Wikidata item](https://www.wikidata.org/wiki/Special:NewItem). Add as much information as you can, but at least the following statements:add your ORCID and name.
    1. Add a statement that you are a person. This can be done by adding the following statement: instance of (P31) human (Q5).
    2. Add a statement that you have an ORCID. This can be done by adding the following statement: ORCID iD (P496) and your ORCID.
    3. Complete the header of the Wikidata item with your name and provide a very short description of yourself (e.g. biocurator, data steward).
    4. (optional) Complete the header of the Wikidata item in multiple languages. 
 2. (Optional) Upload a photo of yourself to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Special:UploadWizard). This needs to be a photo of which you own the rights to share. 
 3. Add the following statemnts to Wikidata item:
-    1. Add a statement that you are a participant of the BioHackathon Europe 2023. This can be done by adding the following statement: BioHackathon Europe 2023 (Q118733318) (or other event item)
-    Navigate to the [participant statement](https://www.wikidata.org/wiki/Q118733318#P710) (P710)
-    And add yourself, either by typing your name using autocompletion or add the Wikidata identifier of the Wikdata item that represents your profile
+   1. Add a statement that you are a participant of the BioHackathon Europe 2023. This can be done by adding the following statement: BioHackathon Europe 2023 (Q118733318) (or other event item). Navigate to the [participant statement](https://www.wikidata.org/wiki/Q118733318#P710) (P710). And add yourself, either by typing your name using autocompletion or add the Wikidata identifier of the Wikdata item that represents your profile.
    2. (optional) Add a statement that points to your photo on Wikimedia Commons. This can be done by adding the following statement: image (P18) and the identifier of the image on Wikimedia Commons.
 
 Navigate to the [BioHackathon Europe 2023](https://scholia.toolforge.org/event/Q118733318) page on Scholia.
-You should now see your name and photo appear on the page.
+You should now see your name and photo appear on the page. A the time of writing, the co-author network looked
+like as shown in Figure 1.
+
+![Co-author network of participants of BioHackathon Europe 2023, as defined by data in Wikidata on 2023-11-02 at 15:00 CET.](./coauthor-network-20231102-1500.png)
 
 If you click on your name you will be taken to your profile page on Scholia. On this page you will see a list of your publications and co-authors.
 
