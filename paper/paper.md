@@ -38,7 +38,8 @@ Wikidata is the linked-open-data graph of the Wikimedia foundation with its most
 is to text, Wikidata is to data. Like in Wikipedia linked-data can be added for everyone, by everyone. This makes Wikidata
 a very rich source of data.
 
-A substantial part of the data on Wikidata is about scientific publications and the authors of these publications. Scholia
+A substantial part of the data on Wikidata is about scientific publications and the authors of these
+publications [@citesAsAuthority:Taraborelli2016WikiCite]. Scholia
 is a tool that uses this data to create a profile page for authors and publications [@usesMethodIn:Nielsen2017Scholia]. 
 This report describes a workflow to create co-author graphs using the data from Scholia. 
 
@@ -69,6 +70,9 @@ The following steps can be taken to add a participant to this graph:
 4. Add the following statements to Wikidata item:
    1. Add a statement that you are a participant of the *BioHackathon Europe 2023*. This can be done by adding the following statement: *BioHackathon Europe 2023* (`Q118733318`) (or other event item). Navigate to the [participant statement](https://www.wikidata.org/wiki/Q118733318#P710) (P710). And add yourself, either by typing your name using autocompletion or add the Wikidata identifier of the Wikdata item that represents your profile.
    2. (optional) Add a statement that points to your photo on Wikimedia Commons. This can be done by adding the following statement: image (`P18`) and the identifier of the image on Wikimedia Commons.
+5. (Optional) The author's Scholia page has a *Improve data* button in the top right. Click it.
+   1. The *Author name strings to be resolved* section uses the [Author Disambiguator](https://scholia.toolforge.org/topic/Q76693569) to link more literature in Wikidata to the author's Wikidata item.
+   2. the *Authored works with missing topics* section shows literature in Wikidata without `main subject` annotation. This is a more powerful keyword annotation. See the [Use Scholia and Wikidata to find scientific literature](https://laurendupuis.github.io/Scholia_tutorial/) tutorial for more information about that.
 
 Navigate to the [BioHackathon Europe 2023](https://scholia.toolforge.org/event/Q118733318) page on Scholia.
 You should now see your name and photo appear on the page. A the time of writing, the co-author network looked
