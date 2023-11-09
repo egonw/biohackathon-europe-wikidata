@@ -57,8 +57,8 @@ BioHackathon, and have co-authors are least one article with another participant
 The following steps can be taken to add a participant to this graph:
 
 1. First, check if the author is already known to Wikidata. Use one of the following patterns:
-   * [https://scholar.toolforge.org/orcid/0000-0001-9773-4008](https://scholar.toolforge.org/orcid/0000-0001-9773-4008)
-   * [https://scholar.toolforge.org/github/egonw](https://scholar.toolforge.org/github/egonw)
+   * [https://scholia.toolforge.org/orcid/0000-0001-9773-4008](https://scholia.toolforge.org/orcid/0000-0001-9773-4008)
+   * [https://scholia.toolforge.org/github/egonw](https://scholia.toolforge.org/github/egonw)
    * Or just search by name and check the details for the person (see also the *Author Disambiguator* below). You can use the ORCID profile as method to triage if you have the right person.
 2. If missing, create a Wikidata item for the participant. This requires an ORCID. If not, [create a new Wikidata item](https://www.wikidata.org/wiki/Special:NewItem). Add as much information as you can, but at least the following statements:add your ORCID and name.
    1. Add a statement that you are a person. This can be done by adding the following statement: instance of (`P31`) human (`Q5`).
